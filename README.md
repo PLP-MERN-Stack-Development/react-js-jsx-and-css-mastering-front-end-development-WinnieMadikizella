@@ -1,16 +1,89 @@
-# React + Vite
+# React.js, JSX, and Tailwind CSS – Mastering Front-End Development
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 **Deployed App:** _Add your deployed link here (Netlify / Vercel / GitHub Pages)_  
+📂 **Repository:** https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-WinnieMadikizella
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✅ Project Overview
 
-## React Compiler
+This project demonstrates building a responsive React application with **Tailwind CSS**.  
+The focus was on:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Reusable component architecture
+- State management using React hooks
+- API integration
+- Responsive and interactive UI
+- Light/Dark theme switcher
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+| Technology      | Usage |
+|-----------------|-------|
+| React.js        | Front-end framework |
+| Vite            | Development & build tool |
+| Tailwind CSS v4 | Styling & responsive layout |
+| React Router    | Page navigation |
+| JSONPlaceholder API | Data fetching for Posts |
+| Custom Hooks    | Persist tasks to localStorage |
+
+---
+
+## ✨ Features
+
+### Task Manager
+- Add new tasks
+- Mark tasks as completed
+- Delete tasks
+- Filter tasks: All / Active / Completed
+- Uses `useState`, `useEffect`, and `useContext`
+- Custom hook: `useLocalStorage`
+
+### API Integration
+- Fetch posts from JSONPlaceholder API
+- Display results in a card layout
+- Loading and error handling
+- Search feature to filter posts
+
+### Styling
+- Responsive design (mobile, tablet, desktop)
+- Light/Dark theme toggle
+- Tailwind utility classes for spacing, layout, colors
+- Smooth hover and transition effects
+
+---
+
+## 🚀 How to Run Locally
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-WinnieMadikizella.git
+```
+
+2. Navigate into the project folder:
+```bash 
+cd react-js-tailwind-week3
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start development server:
+```bash
+npm run dev
+```
+
+5. Open your browser: http://localhost:5173/ 
+
+## Lessons Learned
+1. Building reusable React components
+2. Managing state with hooks
+3. Creating custom hooks (useLocalStorage)
+4. Integrating and displaying API data
+5. Responsive UI design with Tailwind CSS
+6. Handling Light/Dark theme toggling
