@@ -1,6 +1,6 @@
 # React.js, JSX, and Tailwind CSS – Mastering Front-End Development
 
-🚀 **Deployed App:** _Add your deployed link here (Netlify / Vercel / GitHub Pages)_  
+🚀 **Deployed App:**  
 📂 **Repository:** https://github.com/PLP-MERN-Stack-Development/react-js-jsx-and-css-mastering-front-end-development-WinnieMadikizella
 
 ---
